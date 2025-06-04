@@ -12,3 +12,7 @@
 - No Search Shortcut Icons
 - No Sidebar Scrollbar
 - Transparent Zen
+
+### Flags
+
+- `zen.view.experimental-no-window-controls`: `true`

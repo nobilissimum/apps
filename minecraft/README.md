@@ -16,7 +16,7 @@ Performance optimizations:
 
 Quality of life:
 
-- Roughly Enough Items
+- Roughly Enough Items - for crafting recipes
 - Coordinates Display - display for x, y, z coodinates and biome
 
 Settings menu:

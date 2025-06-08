@@ -17,6 +17,7 @@ Performance optimizations:
 Quality of life:
 
 - Roughly Enough Items
+- Coordinates Display - display for x, y, z coodinates and biome
 
 Settings menu:
 

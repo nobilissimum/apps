@@ -28,3 +28,8 @@ Settings menu:
 
 - Complementary Reimagined + Euphoria Patches
 - BSL
+
+### Texture Packs
+
+- Prime HD - an ultra HD texture pack that's faithful to the original design
+- Faithful - a higher resolution texture packs that's faithful to the original design

@@ -1,3 +1,6 @@
+Launcher: [Prism](https://prismlauncher.org)
+Meta-mod: [Essential](https://essential.gg)
+
 ### Recommended Mods
 
 Necessary for shaders and texture packs:

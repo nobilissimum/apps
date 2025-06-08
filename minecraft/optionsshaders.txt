@@ -1,0 +1,19 @@
+#Sat Feb 15 17:42:39 CST 2025
+handDepthMul=0.125
+TexMinFilB=0
+oldLighting=false
+TexMagFilN=0
+tweakBlockDamage=false
+cloudShadow=false
+TexMagFilS=0
+shaderPack=ComplementaryReimagined_r5.4.zip
+TexMinFilN=0
+specularMapEnabled=true
+normalMapEnabled=true
+renderResMul=0.8333333
+oldHandLight=false
+TexMinFilS=0
+shadowResMul=0.9
+shadowClipFrustrum=true
+TexMagFilB=0
+antialiasingLevel=2

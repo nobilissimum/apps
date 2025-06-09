@@ -15,4 +15,6 @@
 
 ### Flags
 
+These are the flags manually set in the `about:config` page of the browser.
+
 - `zen.view.experimental-no-window-controls`: `true`

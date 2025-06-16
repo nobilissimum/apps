@@ -27,6 +27,11 @@ Settings menu:
 - Sodium Extra
 - Reese's Sodium Options
 
+Build schematics:
+
+- Litematica
+- WorldEdit
+
 ### Shaders
 
 - Complementary Reimagined + Euphoria Patches

@@ -2,5 +2,6 @@ This is repository holds the configurations for applications that [@nobilissimum
 
 Applications:
 
+- [AutoHotkey](https://www.autohotkey.com)
 - Minecraft
 - Zen Browser

@@ -7,6 +7,13 @@ Necessary for shaders and texture packs:
 
 - **Iris**
 
+Effects:
+
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features?version=1.21.5&loader=fabric)
+- [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures?version=1.21.5&loader=fabric)
+- Particle Interactions
+- Subtle Effects
+
 Performance optimizations:
 
 - EntityCulling
@@ -26,6 +33,7 @@ Settings menu:
 
 - Sodium Extra
 - Reese's Sodium Options
+- Mod Menu
 
 Build schematics:
 
@@ -39,5 +47,11 @@ Build schematics:
 
 ### Texture Packs
 
-- Prime HD - an ultra HD texture pack that's faithful to the original design
+- EvenBetterEnchants
 - Faithful - a higher resolution texture packs that's faithful to the original design
+- Fancy Crops
+- FreshAnimations - other entity animations
+- Fresh Moves
+- Prime HD - an ultra HD texture pack that's faithful to the original design
+- Low Shield
+- LowOnFire

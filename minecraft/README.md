@@ -49,6 +49,10 @@ Build schematics:
 - Litematica
 - WorldEdit
 
+UI and HUD:
+
+- Immersive UI
+
 ### Shaders
 
 - Complementary Reimagined + Euphoria Patches

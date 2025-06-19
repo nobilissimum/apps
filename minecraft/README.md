@@ -60,11 +60,19 @@ UI and HUD:
 
 ### Texture Packs
 
-- EvenBetterEnchants
-- Fancy Crops
+Animations:
+
 - FreshAnimations - other entity animations
 - Fresh Moves
-- Midnighttigger's Default Connected Textures
-- Midnighttigger's Default Connected Textures Addons
+
+Quality of life:
+
 - Low Shield
 - LowOnFire
+
+Look and feel:
+
+- EvenBetterEnchants
+- Fancy Crops
+- Midnighttigger's Default Connected Textures
+- Midnighttigger's Default Connected Textures Addons

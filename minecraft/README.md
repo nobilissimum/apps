@@ -55,10 +55,8 @@ Build schematics:
 ### Texture Packs
 
 - EvenBetterEnchants
-- Faithful - a higher resolution texture packs that's faithful to the original design
 - Fancy Crops
 - FreshAnimations - other entity animations
 - Fresh Moves
-- Prime HD - an ultra HD texture pack that's faithful to the original design
 - Low Shield
 - LowOnFire

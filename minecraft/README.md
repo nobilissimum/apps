@@ -9,6 +9,7 @@ Necessary for shaders and texture packs:
 
 Effects:
 
+- AmbientSounds
 - Continuity - allow continuous textures (i.e. glass)
 - [Entity Model Features](https://modrinth.com/mod/entity-model-features?version=1.21.5&loader=fabric)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures?version=1.21.5&loader=fabric)

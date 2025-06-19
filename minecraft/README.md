@@ -22,7 +22,9 @@ Performance optimizations:
 - EntityCulling
 - FerriteCore
 - ImmediatelyFast
+- Indium - Sodium add-on
 - Lithium
+- Noisium - Faster world generation
 - Palladium
 - Sodium
 - ToadLib

@@ -13,6 +13,8 @@ Effects:
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures?version=1.21.5&loader=fabric)
 - Particle Interactions
 - Perception
+- Sounds
+- Sound Physics Remastered
 - Subtle Effects
 
 Performance optimizations:

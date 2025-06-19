@@ -31,6 +31,8 @@ Performance optimizations:
 
 Quality of life:
 
+- AppleSkin - food hunger replenish HUD
+- Pick Up Notifier
 - Roughly Enough Items - for crafting recipes
 - Coordinates Display - display for x, y, z coodinates and biome
 

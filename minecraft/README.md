@@ -73,7 +73,10 @@ Quality of life:
 
 Look and feel:
 
+- 3D crops Revamped
+- 3D Ladders
 - EvenBetterEnchants
 - Fancy Crops
 - Midnighttigger's Default Connected Textures
 - Midnighttigger's Default Connected Textures Addons
+- RAY's 3D Rails

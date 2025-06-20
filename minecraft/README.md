@@ -51,6 +51,7 @@ Build schematics:
 
 UI and HUD:
 
+- Enchant Icons
 - Immersive UI
 
 ### Shaders

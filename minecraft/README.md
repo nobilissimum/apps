@@ -80,3 +80,9 @@ Look and feel:
 - Midnighttigger's Default Connected Textures
 - Midnighttigger's Default Connected Textures Addons
 - RAY's 3D Rails
+
+### Game Servers
+
+- Wynncraft - ess.wynncraft.com
+- Hypixel - mc.hypixel.net
+- Origin Realms - essential.originrealms.com

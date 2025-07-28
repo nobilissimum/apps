@@ -1,6 +1,60 @@
 @-moz-document domain("twitter.com"), domain("x.com") {
+    // Fonts
     .r-poiln3,
     .r-1qd0xha {
         font-family: var(--font-body);
     }
+
+    // Colors
+    body {
+        background-color: var(--dark-low) !important;
+    }
+
+    header[role='banner'],
+    .r-yfoy6g {
+        background-color: var(--dark-low);
+    }
+
+    .r-rs99b7.r-yfoy6g,
+    .r-184en5c.r-yfoy6g,
+    .r-1h8ys4a.r-yfoy6g,
+    .r-1777fci.r-yfoy6g {
+        background-color: var(--dark-main);
+    }
+
+    .r-8erxvq {
+        background-color: var(--dark-main);
+        border: 1px var(--dark-low-white-10) solid;
+    }
+
+    .r-ii8lfi {
+        background-color: rgba(29, 35, 46, 0.8);
+    }
+
+    .iebopU {
+        box-shadow: none !important;
+    }
+
+    .r-xnswec {
+        box-shadow: none;
+        outline: var(--dark-low-white-10);
+        border: 1px var(--dark-low-white-10) solid;
+    }
+
+    .r-18bvks7 {
+        border-color: var(--dark-low-white-10);
+    }
+
+    .r-1ila09b {
+        border-bottom-color: var(--dark-low-white-10);
+    }
+
+    .r-kuekak {
+        background-color: var(--dark-low-white-10);
+    }
+
+    .bpbVBQ {
+        padding: 0 1rem;
+    }
+
 }

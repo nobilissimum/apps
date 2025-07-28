@@ -1,4 +1,5 @@
 @-moz-document domain("github.com") {
+    // Fonts
     :root {
         --fontStack-monospace: var(--font-mono);
         --fontStack-sansSerif: var(--font-body);
@@ -35,5 +36,68 @@
 
     .markdown-body {
         font-family: var(--font-body);
+    }
+
+    // Colors
+    [data-color-mode='light'][data-light-theme*='dark'],
+    [data-color-mode='dark'][data-dark-theme*='dark'] {
+        --bgColor-default: var(--dark-low);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        [data-color-mode='light'][data-light-theme*='dark'],
+        [data-color-mode='dark'][data-dark-theme*='dark'] {
+            --bgColor-default: var(--dark-low);
+        }
+    }
+
+    [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
+    [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
+    [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
+    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'],
+    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
+    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
+    [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
+    [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_colorblind'],
+    [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop {
+        --bgColor-default: var(--dark-low);
+        --bgColor-inset: var(--dark-low);
+        --overlay-bgColor: var(--dark-main);
+        --button-default-bgColor-rest: var(--dark-high);
+        --bgColor-muted: var(--dark-high);
+        --fgColor-accent: var(--ansi-blue);
+
+        --borderColor-default: var(--white-01);
+        --borderColor-muted: var(--white-01);
+        --button-default-borderColor-rest: var(--white-01);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
+        [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
+        [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
+        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'],
+        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
+        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
+        [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
+        [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_colorblind'],
+        [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop {
+            --bgColor-default: var(--dark-low);
+            --bgColor-inset: var(--dark-low);
+            --overlay-bgColor: var(--dark-main);
+            --button-default-bgColor-rest: var(--dark-high);
+            --bgColor-muted: var(--dark-high);
+            --fgColor-accent: var(--ansi-blue);
+
+            --borderColor-default: var(--white-01);
+            --borderColor-muted: var(--white-01);
+            --button-default-borderColor-rest: var(--white-01);
+        }
     }
 }

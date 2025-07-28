@@ -1,0 +1,55 @@
+@-moz-document domain("console.aws.amazon.com"), domain("awsapps.com") {
+    :root,
+    html {
+        --font-family-base-4om3hr: var(--font-body);
+    }
+
+    td a.awsui_link_4c84z_1c97a_93,
+    td a.awsui_variant-secondary_4c84z_1c97a_140,
+    td a.awsui_font-size-body-m_4c84z_1c97a_416,
+    .Pg3ZaRLW11orNE3Vkp0vU .cwdb-widget :not(.cwdb-icon),
+    [class^="awsui-"],
+    [class^="awsui-"] button,
+    [class^="awsui_"],
+    [class^="awsui_"]:not(#\9),
+    .globalNav-22122 {
+        font-family: var(--font-body);
+    }
+
+    td a.awsui_link_4c84z_1c97a_93,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table--load-more-row,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table--load-more-row
+        span,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table--load-more-row
+        div,
+    ._link--cookie-preferences_m66i2_134,
+    [class^="awsui_"],
+    [class^="awsui_"]:not(#\9),
+    [class^="awsui_"]:not(#\9) span,
+    [class^="awsui_"]:not(#\9) div,
+    [class^="search-"] {
+        font-family: var(--font-body) !important;
+    }
+
+    .log-event-message-wrapper div,
+    .log-event-message-wrapper span,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table__cell,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table__cell
+        span,
+    .logs__log-events-table-v3
+        table:not(.awsui-cw-date-time-range-calendar-table)
+        .logs__log-events-table__cell
+        div {
+        font-family: var(--font-mono);
+    }
+}

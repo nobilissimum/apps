@@ -1,0 +1,58 @@
+@-moz-document domain("atlassian.com"), domain("atlassian.net") {
+    :root,
+    html[data-theme~="typography\:typography-modernized"] {
+        --ds-font-family-body: var(--font-body);
+    }
+
+    ._11c81oud,
+    .PageContent a,
+    .fc-col-header-cell-cushion,
+    [lang|="en"],
+    ._6v24qk37 > span,
+    ._11c8qk37,
+    ._swxz1doa input,
+    ._10wj1doa input:not([data-compact]),
+    ._11c8qk37,
+    #search-dialog-dialog-wrapper,
+    #search-dialog-dialog-wrapper button,
+    #search-dialog-dialog-wrapper div,
+    #search-dialog-dialog-wrapper span,
+    #search-dialog-dialog-wrapper a,
+    ._11c8o0gd,
+    .PageContent,
+    body,
+    body.aui-layout,
+    [class^="cc-"],
+    [class^="cc-"] p,
+    [class^="css-"],
+    [class^="css-"] [data-item-title],
+    [class^="css-"] [class^="fc-"],
+    [class^="css-"] > button {
+        font-family: var(--font-body);
+    }
+
+    ._ect41kw7,
+    .css-xtidjr,
+    .css-15dto1c,
+    .css-1b2rkmw,
+    .css-57zokn,
+    .css-1vvgscx,
+    .css-1upbkg3,
+    ._11c8iyik,
+    ._11c81p5s,
+    ._11c81bk4 {
+        font-family: var(--font-heading);
+    }
+
+    .css-tgwxhq {
+        mix-blend-mode: multiply;
+    }
+
+    ._p12fhwvj {
+        max-width: 100%;
+    }
+
+    ._1bsbhwvj {
+        width: 100%;
+    }
+}

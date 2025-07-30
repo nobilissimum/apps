@@ -1,8 +1,8 @@
 @-moz-document domain("modular.com") {
     .blue-alert,
     .desktoplabelRm,
-    body code,
     body .alert code,
+    body code,
     body kbd {
         font-family: var(--font-mono);
     }

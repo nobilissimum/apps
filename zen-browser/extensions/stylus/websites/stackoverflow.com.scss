@@ -5,11 +5,11 @@
         --ff-mono: var(--font-mono);
     }
 
-    .s-prose,
     .comment-copy,
-    .question-status,
     .excerpt,
-    .s-post-summary--content .s-post-summary--content-title a {
+    .question-status,
+    .s-post-summary--content .s-post-summary--content-title a,
+    .s-prose {
         font-family: var(--font-body);
     }
 

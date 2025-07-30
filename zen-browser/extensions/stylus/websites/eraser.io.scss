@@ -1,9 +1,9 @@
 @-moz-document domain("eraser.io") {
-    .view-lines span,
-    .view-lines div,
-    .monaco-editor span,
+    .SyntaxModal_sample__wa36n .SyntaxModal_sampleCode__fnG8o span,
     .monaco-editor div,
-    .SyntaxModal_sample__wa36n .SyntaxModal_sampleCode__fnG8o span {
+    .monaco-editor span,
+    .view-lines div,
+    .view-lines span {
         font-family: var(--font-mono);
     }
 }

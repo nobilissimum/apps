@@ -1,12 +1,11 @@
-@-moz-document url-prefix("https://kissasian")
-{
+@-moz-document url-prefix("https://kissasian") {
     #topHolderBox {
         font-family: var(--font-body);
     }
 
-    .bigChar,
     #subcontent span.title,
-    .barTitle {
+    .barTitle,
+    .bigChar {
         font-family: var(--font-heading);
     }
 }

@@ -1,7 +1,7 @@
 @-moz-document domain("udemy.com") {
-    .ud-text-md,
     .ud-heading-md,
-    .ud-heading-serif-xxxl {
+    .ud-heading-serif-xxxl,
+    .ud-text-md {
         font-family: var(--font-heading);
     }
 

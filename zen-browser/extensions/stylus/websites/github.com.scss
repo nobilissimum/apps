@@ -7,18 +7,18 @@
         --fontStack-system: var(--font-body);
     }
 
+    .blob-num,
+    .branch-name,
+    .commit-ref span,
+    .commit-ref,
+    .file-info a,
+    .file-info,
     .markdown-body code,
     .markdown-body tt,
-    .branch-name,
-    .blob-num,
-    .file-info,
-    .file-info a,
-    .commit-ref,
-    .commit-ref span,
-    .react-code-text,
-    .react-code-lines,
-    .react-code-lines span,
     .react-code-lines div,
+    .react-code-lines span,
+    .react-code-lines,
+    .react-code-text,
     code a {
         font-family: var(--font-mono);
     }
@@ -27,10 +27,10 @@
         font-family: var(--font-mono) !important;
     }
 
-    .text-mono,
-    .text-mono span,
+    .blob-code-inner span,
     .blob-code-inner,
-    .blob-code-inner span {
+    .text-mono span,
+    .text-mono {
         font-family: var(--font-mono) !important;
     }
 
@@ -39,36 +39,36 @@
     }
 
     // Colors
-    [data-color-mode='light'][data-light-theme*='dark'],
-    [data-color-mode='dark'][data-dark-theme*='dark'] {
+    [data-color-mode='dark'][data-dark-theme*='dark'],
+    [data-color-mode='light'][data-light-theme*='dark'] {
         --bgColor-default: var(--dark-low);
     }
 
     @media (prefers-color-scheme: dark) {
-        [data-color-mode='light'][data-light-theme*='dark'],
-        [data-color-mode='dark'][data-dark-theme*='dark'] {
+        [data-color-mode='dark'][data-dark-theme*='dark'],
+        [data-color-mode='light'][data-light-theme*='dark'] {
             --bgColor-default: var(--dark-low);
         }
     }
 
-    [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
-    [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
-    [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
-    [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
-    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'],
-    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
-    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
-    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
-    [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
-    [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop,
     [data-color-mode='auto'][data-dark-theme='dark_colorblind'],
-    [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop {
+    [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
+    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
+    [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
+    [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+    [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
+    [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
+    [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
+    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
+    [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] {
         --bgColor-default: var(--dark-low);
         --bgColor-inset: var(--dark-low);
-        --overlay-bgColor: var(--dark-main);
-        --button-default-bgColor-rest: var(--dark-high);
         --bgColor-muted: var(--dark-high);
+        --button-default-bgColor-rest: var(--dark-high);
         --fgColor-accent: var(--ansi-blue);
+        --overlay-bgColor: var(--dark-main);
 
         --borderColor-default: var(--white-01);
         --borderColor-muted: var(--white-01);
@@ -76,24 +76,24 @@
     }
 
     @media (prefers-color-scheme: dark) {
-        [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
-        [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
-        [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
-        [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
-        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'],
-        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
-        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
-        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
-        [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
-        [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop,
         [data-color-mode='auto'][data-dark-theme='dark_colorblind'],
-        [data-color-mode='auto'][data-dark-theme='dark_colorblind'] ::backdrop {
+        [data-color-mode='auto'][data-dark-theme='dark_dimmed'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_dimmed'],
+        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'] ::backdrop,
+        [data-color-mode='auto'][data-dark-theme='dark_high_contrast'],
+        [data-color-mode='dark'][data-dark-theme='dark_colorblind'] ::backdrop,
+        [data-color-mode='dark'][data-dark-theme='dark_colorblind'],
+        [data-color-mode='dark'][data-dark-theme='dark_dimmed'] ::backdrop,
+        [data-color-mode='dark'][data-dark-theme='dark_dimmed'],
+        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] ::backdrop,
+        [data-color-mode='dark'][data-dark-theme='dark_high_contrast'] {
             --bgColor-default: var(--dark-low);
             --bgColor-inset: var(--dark-low);
-            --overlay-bgColor: var(--dark-main);
-            --button-default-bgColor-rest: var(--dark-high);
             --bgColor-muted: var(--dark-high);
+            --button-default-bgColor-rest: var(--dark-high);
             --fgColor-accent: var(--ansi-blue);
+            --overlay-bgColor: var(--dark-main);
 
             --borderColor-default: var(--white-01);
             --borderColor-muted: var(--white-01);

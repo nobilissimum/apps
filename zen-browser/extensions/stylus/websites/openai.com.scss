@@ -1,9 +1,9 @@
 @-moz-document domain("openai.com") {
+    .f-caption-1,
     .f-ui-1,
     .f-ui-2,
-    .f-caption-1,
-    .text-input,
     .font-secondary,
+    .text-input,
     h3,
     h4,
     h5,
@@ -11,6 +11,7 @@
     p {
         font-family: var(--font-body);
     }
+
     .f-display-1,
     .f-display-2,
     .f-heading-1,

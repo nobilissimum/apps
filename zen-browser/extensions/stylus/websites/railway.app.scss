@@ -1,5 +1,7 @@
-.font-mono div,
-.font-mono span,
-.font-mono a {
-    font-family: var(--font-mono);
+@-moz-document domain("railway.app"), @-moz-document domain("railway.com") {
+    .font-mono a,
+    .font-mono div,
+    .font-mono span {
+        font-family: var(--font-mono);
+    }
 }

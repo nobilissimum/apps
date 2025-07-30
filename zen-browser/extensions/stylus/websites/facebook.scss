@@ -1,14 +1,14 @@
 @-moz-document domain("facebook.com"), domain("messenger.com") {
-    #facebook ._-kb.segoe,
     #facebook ._-kb span,
-    #facebook .system-fonts--body span,
-    #facebook .system-fonts--body div {
+    #facebook ._-kb.segoe,
+    #facebook .system-fonts--body div,
+    #facebook .system-fonts--body span {
         font-family: var(--font-body);
     }
 
-    .x9rvswk,
     .x1943h6x,
-    .x1wvumtg {
+    .x1wvumtg,
+    .x9rvswk {
         font-family: var(--font-body) !important;
     }
 }

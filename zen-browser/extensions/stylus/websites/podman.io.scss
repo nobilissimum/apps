@@ -3,12 +3,15 @@
         --ifm-font-family-monospace: var(--font-mono);
     }
 
+    :host > div,
     :host,
-    :root,
-    :host > div {
+    :root {
         --readthedocs-flyout-font-family: var(--font-body);
     }
 
+    blockquote,
+    body,
+    dd,
     div.body h1,
     div.body h2,
     div.body h3,
@@ -18,14 +21,11 @@
     div.sphinxsidebar h3,
     div.sphinxsidebar h4,
     div.sphinxsidebar input,
-    body,
-    input,
     dl > dd,
-    blockquote,
-    dd,
     dl,
     dt,
     figcaption,
+    input,
     ol,
     p {
         font-family: var(--font-body);

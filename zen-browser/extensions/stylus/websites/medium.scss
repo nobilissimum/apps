@@ -1,34 +1,36 @@
 @-moz-document domain("medium.com"), domain("gitconnected.com") {
-    .zn,
-    .zn span,
     .oq,
-    pre br,
-    pre span,
-    pre .nm,
-    pre .nh,
-    pre .ni,
-    pre .fq,
-    pre .ne,
+    .zn span,
+    .zn,
     pre .b,
     pre .bg,
+    pre .fq,
+    pre .l,
+    pre .ne,
+    pre .nh,
+    pre .ni,
     pre .nj,
     pre .nk,
-    pre .l,
-    pre .nl {
+    pre .nl,
+    pre .nm,
+    pre br,
+    pre span {
         font-family: var(--font-mono);
     }
 
     .al,
-    .ny,
     .mi,
+    .nm,
     .nt,
-    .nm {
+    .ny {
         font-family: var(--font-body);
     }
 
+    .bf,
+    .mc,
     h1.al,
-    h1.ny,
     h1.li,
+    h1.ny,
     h2.al,
     h2.be,
     h2.ny,
@@ -40,33 +42,31 @@
     h5.ny,
     h6.al,
     h7.ny,
-    strong.ex,
-    .mc,
-    .bf {
+    strong.ex {
         font-family: var(--font-heading);
     }
 
     @media only screen and (min-width: 1080px) {
-        .ns,
-        .abr {
+        .abr,
+        .ns {
             font-size: 16px;
         }
     }
 
-    .be,
+    .ace,
     .aj,
+    .be,
     .mu,
-    .no,
-    .ace {
+    .no {
         font-family: var(--font-body);
     }
 
-    h1.be,
     h1.aj,
+    h1.be,
     h1.mu,
     h1.no,
-    h2.be,
     h2.aj,
+    h2.be,
     h2.mu,
     h2.no {
         font-family: var(--font-heading);

@@ -1,11 +1,11 @@
 @-moz-document domain("twitter.com"), domain("x.com") {
-    // Fonts
+    /* Fonts */
     .r-1qd0xha,
     .r-poiln3 {
         font-family: var(--font-body);
     }
 
-    // Colors
+    /* Colors */
     body {
         background-color: var(--dark-low) !important;
     }

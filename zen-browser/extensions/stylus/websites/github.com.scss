@@ -1,5 +1,5 @@
 @-moz-document domain("github.com") {
-    // Fonts
+    /* Fonts */
     :root {
         --fontStack-monospace: var(--font-mono);
         --fontStack-sansSerif: var(--font-body);
@@ -38,7 +38,7 @@
         font-family: var(--font-body);
     }
 
-    // Colors
+    /* Colors */
     [data-color-mode='dark'][data-dark-theme*='dark'],
     [data-color-mode='light'][data-light-theme*='dark'] {
         --bgColor-default: var(--dark-low);

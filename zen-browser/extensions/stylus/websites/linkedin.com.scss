@@ -1,11 +1,11 @@
 @-moz-document domain("linkedin.com") {
-    // Fonts
+    /* Fonts */
     :root {
         --artdeco-reset-typography-font-family-sans: var(--font-body);
         --x-hue-web-reset-typography-family: var(--font-body);
     }
 
-    // Colors
+    /* Colors */
     :root {
         --black: var(--dark-low);
         --cool-gray-100: var(--dark-main);

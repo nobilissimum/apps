@@ -1,7 +1,12 @@
 @-moz-document domain("claude.ai") {
     :root {
-        --font-user-message: var(--font-body);
+        --font-claude-response: var(--font-body);
+        --font-fallback-sans: var(--font-body);
+        --font-fallback-serif: var(--font-body);
         --font-styrene-a: var(--font-body);
+        --font-styrene-b: var(--font-body);
+        --font-ui-serif: var(--font-body);
+        --font-user-message: var(--font-body);
     }
 
     .font-tiempos,

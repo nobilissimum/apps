@@ -1,5 +1,3 @@
-Go to `about:profiles` and navigate to the **root directory** of the preferred profile. You may click on the _Open Folder_ button. Create a directory named `chrome` if it doesn't exist and put the `userChrome.css` file in it.
-
 ### Zen Mods
 
 - Animation Plus
@@ -36,6 +34,8 @@ Add custom flags.
 
 #### How to apply theme using Stylus?
 
+##### Fonts and Colors
+
 Requirements:
 
 - `go`
@@ -53,8 +53,6 @@ Clone the repository and build the `.scss` file
 - `make build`
 - `./run`
 
-
-
 Click the **Stylus** extension in the browser's extensions panel then select <kbd>Manage</kbd>. There's a <kbd>Write new style</kbd> option in the side menu under the **Backup** section. This will create a new blank style. Select the <kbd>Import</kbd> button in the side menu then paste the contents of `dist.scss` then click <kbd>Overwrite style</kbd>.
 
 #### Supported websites with Hush colors
@@ -64,6 +62,9 @@ Click the **Stylus** extension in the browser's extensions panel then select <kb
 - https://www.twitch.tv
 - https://twitter.com and https://x.com
 
+##### Sidebar Tab Groups
+
+Go to `about:profiles` and navigate to the **root directory** of the preferred profile. You may click on the _Open Folder_ button. Create a directory named `chrome` if it doesn't exist and copy-paste `userChrome.scss` as `userChrome.css` file.
 
 ### References
 

@@ -2,6 +2,15 @@
     :root,
     html[data-theme~="typography\:typography-modernized"] {
         --ds-font-family-body: var(--font-body);
+        --bxp-charlie-display-font-family: var(--font-body);
+
+        --ds-font-family-body: var(--font-body);
+        --ds-font-family-brand-body: var(--font-body);
+        --ds-font-family-brand-heading: var(--font-body);
+        --ds-font-family-code: var(--font-body);
+        --ds-font-family-heading: var(--font-body);
+
+        --ds-font-code: var(--font-mono);
     }
 
     #search-dialog-dialog-wrapper a,
@@ -17,6 +26,7 @@
     ._11c8qk37,
     ._11c8qk37,
     ._6v24qk37 > span,
+    ._ect4q6fz,
     ._swxz1doa input,
     .fc-col-header-cell-cushion,
     [class^="cc-"] p,
@@ -54,5 +64,9 @@
 
     ._1bsbhwvj {
         width: 100%;
+    }
+
+    ._11c81u0j {
+        font-family: var(--font-mono);
     }
 }

@@ -1,12 +1,37 @@
 @-moz-document domain("youtube.com") {
+    ytd-engagement-panel-title-header-renderer[modern-panels]:not([ads-semantic-text]) #title-text.ytd-engagement-panel-title-header-renderer {
+        font-family: var(--font-heading);
+    }
+
+    #bio.ytd-channel-about-metadata-renderer,
+    #description.ytd-channel-about-metadata-renderer,
+    #description.ytd-interactive-tabbed-header-renderer,
+    #metadata.ytd-interactive-tabbed-header-renderer,
     #simplebox-placeholder.ytd-comment-simplebox-renderer,
+    #subtitle.ytd-rich-metadata-renderer,
+    #title.ytd-interactive-tabbed-header-renderer,
     #vote-count-middle.ytd-comment-engagement-bar,
+    .badge.ytd-badge-supported-renderer,
     .less-button.ytd-comment-view-model,
+    .message.ytd-notification-renderer,
+    .metadata.ytd-notification-renderer,
     .more-button.ytd-comment-view-model,
+    .subheadline.ytd-channel-about-metadata-renderer,
+    .yt-channel-external-link-view-model-wiz__title,
+    .yt-list-item-view-model-wiz__container--compact .yt-list-item-view-model-wiz__title,
+    .yt-tab-shape-wiz__tab,
+    .ytChipShapeChip,
+    p.ytd-about-channel-renderer,
+    td.ytd-about-channel-renderer,
     yt-chip-cloud-chip-renderer[modern] #chip-container.yt-chip-cloud-chip-renderer,
     yt-formatted-string.ytd-menu-service-item-download-renderer,
+    ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
+    ytd-guide-entry-renderer[active] .title.ytd-guide-entry-renderer,
     ytd-guide-entry-renderer[is-header] .title.ytd-guide-entry-renderer,
-    ytd-guide-section-renderer[modern-typography] #guide-section-title.ytd-guide-section-renderer {
+    ytd-guide-section-renderer[modern-typography] #guide-section-title.ytd-guide-section-renderer,
+    ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media,
+    ytd-rich-list-header-renderer[modern-typography] #subtitle.ytd-rich-list-header-renderer,
+    ytd-rich-list-header-renderer[modern-typography] #title.ytd-rich-list-header-renderer {
         font-family: var(--font-body);
     }
 }

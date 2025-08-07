@@ -1,4 +1,4 @@
-@-moz-document domain("openai.com") {
+@-moz-document domain("openai.com"), domain("chatgpt.com") {
     .f-caption-1,
     .f-ui-1,
     .f-ui-2,
@@ -24,4 +24,12 @@
     .font-primary {
         font-family: var(--font-heading);
     }
+
+     code,
+     pre,
+     .ͼ1 .cm-scroller,
+     .ͼ1 .cm-scroller div,
+     .ͼ1 .cm-scroller span {
+         font-family: var(--font-mono) !important;
+     }
 }

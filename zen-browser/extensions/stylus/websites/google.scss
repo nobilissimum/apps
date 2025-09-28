@@ -9,6 +9,14 @@
         --mdc-typography-body2-font-family: var(--font-body);
     }
 
+    #title.ytd-connected-app-renderer,
+    #title.ytd-rich-metadata-renderer,
+    #title.ytd-settings-options-renderer,
+    #title.ytd-settings-switch-renderer,
+    #title.ytd-video-description-transcript-section-renderer {
+        font-family: var(--font-heading);
+    }
+
     #aside-text.ytd-settings-radio-option-renderer,
     #channel-title.ytd-account-item-renderer,
     #label.ytd-settings-checkbox-renderer,
@@ -22,10 +30,6 @@
     #text.ytd-connected-app-renderer,
     #text.ytd-page-introduction-renderer,
     #text.ytd-settings-options-renderer,
-    #title.ytd-connected-app-renderer,
-    #title.ytd-settings-options-renderer,
-    #title.ytd-settings-switch-renderer,
-    #title.ytd-video-description-transcript-section-renderer,
     #video-title.ytd-compact-video-renderer,
     .AZCkJd,
     .BowpK,
@@ -137,6 +141,7 @@
     .wJCOBf,
     .xtp0If,
     .yGdMVd.ZxoDOe .PyJv1b .yKMVIe,
+    .yt-content-metadata-view-model__metadata-text,
     .zeumMd,
     a.user-feedback-link,
     body,

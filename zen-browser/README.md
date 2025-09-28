@@ -66,6 +66,11 @@ Click the **Stylus** extension in the browser's extensions panel then select <kb
 
 Go to `about:profiles` and navigate to the **root directory** of the preferred profile. You may click on the _Open Folder_ button. Create a directory named `chrome` if it doesn't exist and copy-paste `userChrome.scss` as `userChrome.css` file.
 
+### Betterfox
+
+Go to `about:profiles` and navigate to the **root directory** of the preferred profile. You may click on the _Open Folder_ button. Copy-paste `user.js` to the root directory.
+
 ### References
 
+- [Betterfox](https://searchfox.org/mozilla-central/source/netwerk/base/nsIPermissionManager.idl)
 - [Live Editing Zen Theme](https://docs.zen-browser.app/guides/live-editing)

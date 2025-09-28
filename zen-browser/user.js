@@ -24,6 +24,10 @@ user_pref("content.notify.interval", 100000);
 user_pref("gfx.canvas.accelerated.cache-size", 512);
 user_pref("gfx.content.skia-font-cache-size", 20);
 
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
+user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
+user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
+
 /** DISK CACHE ***/
 user_pref("browser.cache.disk.enable", false);
 
@@ -62,7 +66,8 @@ user_pref("layout.css.grid-template-masonry-value.enabled", true);
  * SECTION: SECUREFOX                                                       *
 ****************************************************************************/
 /** TRACKING PROTECTION ***/
-user_pref("browser.contentblocking.category", "strict");
+user_pref("browser.contentblocking.category", "standard");
+user_pref("browser.contentblocking.features.strict", "-lvl2,-fpp");
 user_pref("browser.download.start_downloads_in_tmp_dir", true);
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
 user_pref("browser.uitour.enabled", false);

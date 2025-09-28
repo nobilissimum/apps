@@ -9,23 +9,33 @@
         --mdc-typography-body2-font-family: var(--font-body);
     }
 
+    #guide-section-title.ytd-guide-section-renderer,
     #title.ytd-connected-app-renderer,
+    #title.ytd-reel-shelf-renderer,
     #title.ytd-rich-metadata-renderer,
+    #title.ytd-rich-shelf-renderer,
     #title.ytd-settings-options-renderer,
     #title.ytd-settings-switch-renderer,
+    #title.ytd-structured-description-video-lockup-renderer,
     #title.ytd-video-description-transcript-section-renderer {
         font-family: var(--font-heading);
     }
 
     #aside-text.ytd-settings-radio-option-renderer,
     #channel-title.ytd-account-item-renderer,
+    #description.ytd-channel-renderer,
     #label.ytd-settings-checkbox-renderer,
     #label.ytd-settings-radio-option-renderer,
+    #label.ytd-toggle-theme-compact-link-renderer,
+    #metadata.ytd-channel-renderer,
     #result-stats,
     #search-input.ytd-searchbox-spt input,
     #sub-header-text.ytd-video-description-transcript-section-renderer,
+    #submessage.ytd-message-renderer,
+    #subtitle.ytd-compact-link-renderer,
     #subtitle.ytd-item-section-header-renderer,
     #subtitle.ytd-settings-switch-renderer,
+    #subtitle.ytd-structured-description-video-lockup-renderer,
     #subtitle.ytd-video-description-infocards-section-renderer,
     #text.ytd-connected-app-renderer,
     #text.ytd-page-introduction-renderer,
@@ -85,6 +95,7 @@
     .cS4Vcb-pGL6qe-mji9Ze,
     .cmEq8b .Z4BnXb .njhDLd,
     .d2F2Td,
+    .description.ytd-toggle-item-renderer,
     .e9EfHf,
     .eYGoGb,
     .fm06If .ILfuVd,
@@ -141,6 +152,7 @@
     .wJCOBf,
     .xtp0If,
     .yGdMVd.ZxoDOe .PyJv1b .yKMVIe,
+    .yt-content-metadata-view-model--medium-text .yt-content-metadata-view-model__metadata-text,
     .yt-content-metadata-view-model__metadata-text,
     .yt-list-item-view-model__container--compact .yt-list-item-view-model__title,
     .zeumMd,
@@ -154,6 +166,7 @@
     yt-formatted-string.ytd-google-account-header-renderer,
     yt-formatted-string.ytd-menu-service-item-renderer,
     ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name.ytd-active-account-header-renderer,
+    ytd-video-description-infocards-section-renderer[show-creator-custom-url-buttons] #subtitle.ytd-video-description-infocards-section-renderer,
     ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer,
 .yt-list-item-view-model__container--compact .yt-list-item-view-model__selection-text--trailing-selection-text {
         font-family: var(--font-body);

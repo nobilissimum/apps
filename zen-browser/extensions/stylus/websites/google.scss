@@ -142,6 +142,7 @@
     .xtp0If,
     .yGdMVd.ZxoDOe .PyJv1b .yKMVIe,
     .yt-content-metadata-view-model__metadata-text,
+    .yt-list-item-view-model__container--compact .yt-list-item-view-model__title,
     .zeumMd,
     a.user-feedback-link,
     body,
@@ -153,7 +154,8 @@
     yt-formatted-string.ytd-google-account-header-renderer,
     yt-formatted-string.ytd-menu-service-item-renderer,
     ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name.ytd-active-account-header-renderer,
-    ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer {
+    ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer,
+.yt-list-item-view-model__container--compact .yt-list-item-view-model__selection-text--trailing-selection-text {
         font-family: var(--font-body);
     }
 

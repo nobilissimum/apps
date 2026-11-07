@@ -1,5 +1,6 @@
 Launcher: [Prism](https://prismlauncher.org)
 Meta-mod: [Essential](https://essential.gg)
+Java: [Adoptium Temurin](https://adoptium.net/temurin/releases)
 
 ### Recommended Mods
 

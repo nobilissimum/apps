@@ -22,10 +22,9 @@ Effects:
 
 Performance optimizations:
 
-- EntityCulling
+- Entity Culling
 - FerriteCore
 - ImmediatelyFast
-- Indium - Sodium add-on
 - Lithium
 - Noisium - Faster world generation
 - Palladium
@@ -37,12 +36,11 @@ Quality of life:
 - AppleSkin - food hunger replenish HUD
 - Pick Up Notifier
 - Roughly Enough Items - for crafting recipes
-- Coordinates Display - display for x, y, z coodinates and biome
+- Xaero's Minimap
+- Xaero's World Map
 
 Settings menu:
 
-- Sodium Extra
-- Reese's Sodium Options
 - Mod Menu
 
 Build schematics:
@@ -53,6 +51,7 @@ Build schematics:
 UI and HUD:
 
 - Enchant Icons
+- Enchantment Descriptions
 - Immersive UI
 
 ### Shaders
@@ -64,19 +63,19 @@ UI and HUD:
 
 Animations:
 
-- FreshAnimations - other entity animations
+- Fresh Animations _(other entity animations)_
 - Fresh Moves
 
 Quality of life:
 
 - Low Shield
-- LowOnFire
+- Low On Fire
 
 Look and feel:
 
 - 3D crops Revamped
 - 3D Ladders
-- EvenBetterEnchants
+- Even Better Enchants
 - Fancy Crops
 - Midnighttigger's Default Connected Textures
 - Midnighttigger's Default Connected Textures Addons

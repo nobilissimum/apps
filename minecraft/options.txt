@@ -9,7 +9,7 @@ entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.375
-fovEffectScale:1.0
+fovEffectScale:0.1
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
@@ -33,8 +33,8 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"fast"
 cloudRange:128
-renderDistance:8
-simulationDistance:8
+renderDistance:10
+simulationDistance:10
 screenEffectScale:0.5
 soundDevice:""
 vignette:true
@@ -50,7 +50,7 @@ discrete_mouse_scroll:false
 invertXMouse:false
 invertYMouse:false
 realmsNotifications:true
-showSubtitles:true
+showSubtitles:false
 directionalAudio:false
 bobView:false
 toggleCrouch:false
@@ -66,8 +66,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:false
-resourcePacks:["vanilla","file/Low Shield.zip","file/crops-3d(2).zip","file/Fancy Crops v1.3.zip","continuity:default","continuity:glass_pane_culling_fix","file/EvenBetterEnchants_v3_1.21.5+.zip","file/FreshAnimations_v1.11.2_26.1+.zip","file/LowOnFire v26.2§8.zip","file/RAYs_3D_Rails_v3.7.zip","file/§l3D§f Ladders v1.2.2 - 26.3.zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/End City Panorama V2.zip"]
-incompatibleResourcePacks:["file/crops-3d(2).zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/End City Panorama V2.zip"]
+resourcePacks:["vanilla","file/Low Shield.zip","file/crops-3d(2).zip","continuity:default","continuity:glass_pane_culling_fix","file/EvenBetterEnchants_v3_1.21.5+.zip","file/FreshAnimations_v1.11.2_26.1+.zip","file/RAYs_3D_Rails_v3.7.zip","file/§l3D§f Ladders v1.2.2 - 26.3.zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/End City Panorama V2.zip","file/Fancy Crops v1.4.zip","subtle_effects:biome_color_water_particles","file/Even Better Enchanted Books v2.4 1.21.9-21.6.2.zip","file/MT \u0026 Clear Glass Addon.zip","file/Midnighttigger\u0027s Default Connected Textures.zip"]
+incompatibleResourcePacks:["file/crops-3d(2).zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/End City Panorama V2.zip","file/Even Better Enchanted Books v2.4 1.21.9-21.6.2.zip","file/MT \u0026 Clear Glass Addon.zip","file/Midnighttigger\u0027s Default Connected Textures.zip"]
 lastServer:::1
 lang:en_us
 chatVisibility:0
@@ -150,9 +150,9 @@ key_key.hotbar.3:key.keyboard.3
 key_key.hotbar.4:key.keyboard.4
 key_key.hotbar.5:key.keyboard.5
 key_key.hotbar.6:key.keyboard.6
-key_key.hotbar.7:key.keyboard.7
-key_key.hotbar.8:key.keyboard.8
-key_key.hotbar.9:key.keyboard.9
+key_key.hotbar.7:key.keyboard.z
+key_key.hotbar.8:key.keyboard.v
+key_key.hotbar.9:key.keyboard.g
 key_key.debug.reloadChunk:key.keyboard.a
 key_key.debug.showHitboxes:key.keyboard.b
 key_key.debug.clearChat:key.keyboard.d
@@ -168,7 +168,7 @@ key_key.debug.dumpDynamicTextures:key.keyboard.s
 key_key.debug.reloadResourcePacks:key.keyboard.t
 key_key.debug.profiling:key.keyboard.l
 key_key.debug.copyLocation:key.keyboard.c
-key_key.debug.dumpVersion:key.keyboard.v
+key_key.debug.dumpVersion:key.keyboard.unknown
 key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
@@ -181,7 +181,7 @@ key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.grave.accent
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
@@ -207,17 +207,17 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.f16
-key_iris.keybind.toggleShaders:key.keyboard.f17
+key_iris.keybind.reload:key.keyboard.grave.accent
+key_iris.keybind.toggleShaders:key.keyboard.f16
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.j
 key_keybind.name.ESSENTIAL_FRIENDS:key.keyboard.h
 key_keybind.name.COSMETIC_STUDIO:key.keyboard.b
 key_keybind.name.SCREENSHOT_MANAGER:key.keyboard.i
 key_keybind.name.COSMETICS_VISIBILITY_TOGGLE:key.keyboard.unknown
-key_keybind.name.CHAT_PEEK:key.keyboard.z
+key_keybind.name.CHAT_PEEK:key.keyboard.grave.accent
 key_keybind.name.INVITE_FRIENDS:key.keyboard.unknown
-key_keybind.name.MENU_ACCESS:key.keyboard.g
+key_keybind.name.MENU_ACCESS:key.keyboard.k
 key_keybind.name.EMOTE_WHEEL:key.keyboard.y
 key_keybind.name.EMOTE_SLOT_1:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_2:key.keyboard.unknown
@@ -229,7 +229,7 @@ key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.c
 soundCategory_master:0.304635761589404
-soundCategory_music:0.40492957746478875
+soundCategory_music:0.4014084507042254
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
